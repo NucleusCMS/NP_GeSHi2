@@ -34,8 +34,8 @@ class NP_GeSHi2 extends NucleusPlugin {
 
 	function getName() { return 'NP_GeSHi2'; }
 	function getAuthor()  { return 'Kai Greve'; }
-	function getURL()  { return 'http://kgblog.de/'; }
-	function getVersion() { return '0.1'; }
+	function getURL()  { return 'https://github.com/NucleusCMS/NP_GeSHi2'; }
+	function getVersion() { return '0.2'; }
 	function getDescription() {
 		return 'Integrates GeSHi - the Generic Syntax Highlighter - into Nucleus CMS. GeSHi can highlight code from several programming languages.';
 	}
