@@ -110,7 +110,7 @@ class NP_GeSHi2 extends NucleusPlugin {
 	function supportsFeature ($what) {
 		switch ($what)
 		{
-			case 'SqlTablePrefix':
+			case 'NoSql':
 				return 1;
 			default:
 				return 0;
