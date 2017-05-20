@@ -65,7 +65,7 @@ class NP_GeSHi2 extends NucleusPlugin {
 		$output=$code[4];
 
 		// highlight the code with GeSHi		
-		$geshi =& new GeSHi($output, $code[2]);
+		$geshi =new GeSHi($output, $code[2]);
 		
 		$geshi->set_header_type(GESHI_HEADER_NONE);
 		$output=$geshi->parse_code();
