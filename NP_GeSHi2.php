@@ -117,4 +117,3 @@ class NP_GeSHi2 extends NucleusPlugin {
 		}
 	}
 }
-?>
